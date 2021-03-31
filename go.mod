@@ -1,4 +1,4 @@
-module golang.org/x/image
+module github.com/elwhite321/image
 
 go 1.12
 
