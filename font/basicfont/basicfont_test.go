@@ -8,7 +8,7 @@ import (
 	"image"
 	"testing"
 
-	"golang.org/x/image/font"
+	"github.com/elwhite321/image/font"
 )
 
 func TestMetrics(t *testing.T) {

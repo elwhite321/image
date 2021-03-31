@@ -8,10 +8,10 @@ import (
 	"image"
 	"testing"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/gofont/goregular"
-	"golang.org/x/image/font/sfnt"
-	"golang.org/x/image/math/fixed"
+	"github.com/elwhite321/image/font"
+	"github.com/elwhite321/image/font/gofont/goregular"
+	"github.com/elwhite321/image/font/sfnt"
+	"github.com/elwhite321/image/math/fixed"
 )
 
 var (

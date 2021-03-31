@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/image/math/fixed"
+	"github.com/elwhite321/image/math/fixed"
 )
 
 const toyAdvance = fixed.Int26_6(10 << 6)

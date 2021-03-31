@@ -6,20 +6,20 @@
 // OTF (OpenType Fonts).
 //
 // This package provides a high-level API, centered on the NewFace function,
-// implementing the golang.org/x/image/font.Face interface.
+// implementing the github.com/elwhite321/image/font.Face interface.
 //
-// The sibling golang.org/x/image/font/sfnt package provides a low-level API.
-package opentype // import "golang.org/x/image/font/opentype"
+// The sibling github.com/elwhite321/image/font/sfnt package provides a low-level API.
+package opentype // import "github.com/elwhite321/image/font/opentype"
 
 import (
 	"image"
 	"image/draw"
 	"io"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/sfnt"
-	"golang.org/x/image/math/fixed"
-	"golang.org/x/image/vector"
+	"github.com/elwhite321/image/font"
+	"github.com/elwhite321/image/font/sfnt"
+	"github.com/elwhite321/image/math/fixed"
+	"github.com/elwhite321/image/vector"
 )
 
 // ParseCollection parses an OpenType font collection, such as TTC or OTC data,

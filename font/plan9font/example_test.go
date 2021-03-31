@@ -13,9 +13,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/plan9font"
-	"golang.org/x/image/math/fixed"
+	"github.com/elwhite321/image/font"
+	"github.com/elwhite321/image/font/plan9font"
+	"github.com/elwhite321/image/math/fixed"
 )
 
 func ExampleParseFont() {
